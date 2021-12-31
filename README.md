@@ -5,11 +5,14 @@ v1 - 2022
 - [**Tailwindcss**](https://tailwindcss.com/docs/) `darkmode pre-configured`
 
 #### Install dependenties
-`$ yarn` or `npm install`
+`$ yarn`
+`$ npm install`
 
 #### Run development server
-`yarn dev` or `npm run dev`
+`$ yarn dev`
+`$ npm run dev`
 
 #### Build for distribution
-`yarn build` or `npm run build`
+`$ yarn build` 
+`$ npm run build`
 

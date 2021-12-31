@@ -1,4 +1,4 @@
 ### NOX template
 
  * Vite + Vuejs
- * Tailwindcss 'darkmode configured'
+ * Tailwindcss `darkmode configured`

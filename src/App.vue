@@ -11,9 +11,7 @@
     <svg class="w-6 h-6 inline mt-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd"></path>
     </svg>
-    <div class="m-6" v-for="(link, index) in links" :key="index">
-      <a class=" px-2 py-1  text-black font-bold text-2xl cursor-crosshair hover:text-white hover:bg-black dark:text-white dark:hover:text-black dark:hover:bg-white" :href="link.url">{{ link.text }} </a>
-    </div>
+    <router-view></router-view>
     <h1 class="mt-16">Made with ❤ by nonobstant</h1>
   </div>
   
@@ -23,33 +21,6 @@
 export default {
   data() {
     return {
-      links : [
-        {
-          text : "LUX MINIMA",
-          url : "https://luxminima.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "PRISM FLOWER",
-          url : "https://prismflower.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "ATELIER404",
-          url : "https://atelier404.xyz",
-          img : "./assets/"
-        },
-        {
-          text : "TWITTER",
-          url : "#",
-          img : "./assets/"
-        },
-        {
-          text : "INSTAGRAM",
-          url : "#",
-          img : "./assets/"
-        },
-      ],
       theme : ""
     }
   },

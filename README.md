@@ -1,18 +1,40 @@
-### NOX template
-v1 - 2022
+# nox template
+Nuxt 3 + Tailwindcss + daisyUI
 
-- [**Vite**](https://vitejs.dev/guide/) + [**Vuejs**](https://v3.vuejs.org/guide/introduction.html)
-- [**Tailwindcss**](https://tailwindcss.com/docs/) `darkmode pre-configured`
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-#### Install dependenties
-`$ yarn`
-`$ npm install`
+## Setup
 
-#### Run development server
-`$ yarn dev`
-`$ npm run dev`
+Make sure to install dependencies:
 
-#### Build for distribution
-`$ yarn build` 
-`$ npm run build`
+```bash
+# bun
+bun install
+```
 
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# bun
+bun dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# bun
+bun build
+```
+
+Locally preview production build:
+
+```bash
+# bun
+bun preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

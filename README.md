@@ -1,5 +1,5 @@
 # nox template
-Nuxt 3 + Tailwindcss + daisyUI
+Nuxt 3 + [Tailwindcss](https://tailwindcss.com/) + [daisyUI](https://daisyui.com)
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -21,20 +21,8 @@ Start the development server on `http://localhost:3000`:
 bun dev
 ```
 
-## Production
+## Deploy
 
-Build the application for production:
-
-```bash
-# bun
-bun build
-```
-
-Locally preview production build:
-
-```bash
-# bun
-bun preview
-```
+[Deploy on vercel](https://vercel.com)
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
